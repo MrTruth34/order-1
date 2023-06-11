@@ -1,0 +1,143 @@
+.main-block {
+  background-color: #ffffff;
+}
+
+.main-block__title {
+  text-align: center;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #a7b4c0;
+  display: block;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+  scroll-behavior: smooth;
+  padding-top: 100px;
+}
+
+.main-block__title--big {
+  font-weight: 700;
+  line-height: 100%;
+  text-align: center;
+  color: #060608;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.main-block-list {
+  padding-top: 50px;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 60px 60pa 60px 60px 60px 60px 60px;
+  font-size: 1.125em;
+  font-weight: 700;
+  line-height: 150%;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgba(0,0,0,.03);
+}
+
+.main-block-item:nth-child(1) {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.main-block-item:nth-child(2) {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.main-block-item:nth-child(3) {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.main-block-item:nth-child(4) {
+  grid-column: 1;
+  grid-row: 5;
+  padding-left: 67px;
+}
+
+.main-block-item:nth-child(5) {
+  grid-column: 1;
+  grid-row: 6;
+  padding-left: 10px;
+}
+
+.main-block-item--grey {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: rgba(0,0,0,.03);
+  text-align: center;
+}
+
+.main-block-item--blue {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: rgba(0,0,0,.03);
+  text-align: center;
+}
+
+.main-block-item--dark {
+  grid-column: 3;
+  grid-row: 1;
+  font-size: 1.125em;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+}
+
+.main-block-item--second {
+  grid-column: 2;
+  grid-row: 1;
+  color: #0050b2;
+  font-size: 1.25em;
+  font-family: centurygothic, sans-serif;
+  font-weight: 700;
+  line-height: 100%;
+  font-size: 1.125em;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+}
+
+.main-block-item--last {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: rgba(0,0,0,.03);
+  text-align: center;
+}
+
+.main-block-item--third {
+  grid-column: 3;
+  grid-row: 3;
+  background-color: rgba(0,0,0,.03);
+  text-align: center;
+}
+
+
+.main-block-item--white {
+  grid-column: 2;
+  grid-row: 7;
+  background-color: #007aff;
+  text-align: center;
+}
+
+.main-block-item__button {
+  background-color: #007aff;
+  border: none;
+  height: 60px;
+  color: #fff;
+  align-items: center;
+  font-weight: 700;
+  line-height: 100%;
+  font-size: 1.125em;
+}
+
+.main-block-item--black {
+  background-color: rgba(0,0,0,.03);
+  text-align: center;
+}

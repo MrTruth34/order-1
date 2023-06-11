@@ -1,0 +1,27 @@
+.main-block-container {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-block-container__title {
+  font-size: 3.5em;
+  font-weight: 700;
+  line-height: 150%;
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 200px;
+}
+
+.main-block-container__slogan {
+  color: #6a737c;
+  text-align: left;
+  font-size: 1em;
+  scroll-behavior: smooth;
+}
+
+.main-block-container__title--last {
+  margin-right: 0;
+}

@@ -1,0 +1,25 @@
+.description-list {
+  padding: 0;
+      margin-top: 0;
+      margin-left: 96px;
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.description-item {
+     width: 163px;
+    height: 60px;
+    background-color: #e4e4e4;
+    opacity: .5;
+    border-radius: 5px;
+    background-blend-mode: luminosity;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .4s all linear;
+    margin-right: 25px;
+}
+
+.description-link {
+
+}
