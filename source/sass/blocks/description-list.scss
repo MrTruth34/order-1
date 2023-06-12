@@ -20,6 +20,15 @@
     margin-right: 25px;
 }
 
-.description-link {
+.description-item:nth-child(1) {
+  background-image: url("../img/alfa.jpg");
+}
 
+.description-item:nth-child(2) {
+  background-image: url("../img/tinkoff-bank.png");
+}
+
+
+.description-item:nth-child(3) {
+  background-image: url("../img/sovkombank.png");
 }

@@ -1,0 +1,54 @@
+.form-sentence {
+  width: 1200px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 50px 0 30px 50px;
+  background-color: #0050b2;
+  position: absolute;
+  top: 850px;
+    left: 10%;
+}
+
+.form-sentence__title {
+  font-size: 3em;
+    margin-bottom: 14px;
+    line-height: 120%;
+    color: #ffffff;
+}
+
+.form-sentence__slogan {
+  color: #ffffff;
+    text-align: left;
+    font-size: 1.125em;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.form-sentence__text-name {
+width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 30px;
+}
+
+.form-sentence__submit {
+  width: 200px;
+  background: #060608;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 5px;
+    border: none;
+}
+
+.form-sentence-block {
+  display: flex;
+  flex-wrap: wrap;
+}

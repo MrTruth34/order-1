@@ -1,0 +1,86 @@
+.attractions {
+  background-color: #ffffff;
+position: relative;
+padding-bottom: 250px ;
+position: relative;
+z-index: 0;
+}
+
+.attractions__line {
+  position: absolute;
+  z-index: -1;
+  top: 227px;
+  left: 905px;
+}
+
+.attractions-wrapper__title {
+  margin-top: 0;
+  text-align: center;
+  text-align: center;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #a7b4c0;
+    display: block;
+    box-sizing: border-box;
+    font-size: 1em;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.attractions-wrapper__slogan {
+  text-align: center;
+}
+
+.attractions-wrapper__title--big {
+  font-weight: 700;
+    line-height: 100%;
+    text-align: center;
+    color: #060608;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px
+}
+
+.attractions-wrapper__slogan {
+font-weight: 400;
+    line-height: 120%;
+    font-size: 1.125em;
+    color: #6a737c;
+    text-align: center;
+    max-width: 500px;
+    margin: 20px auto 0 auto;
+    font-size: 18px;
+}
+
+.attractions-list {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.attractions-list__title {
+font-size: 18px;
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    line-height: 150%;
+    font-size: 18px;
+}
+
+.attractions-list__link {
+  display: block;
+    font-size: 1.125em;
+    font-weight: 700;
+    line-height: 150%;
+    color: #0050b2;
+}
+
+.attractions-list__item {
+  margin-right: 40px;
+}
+
+.attractions-list__item:nth-child(3) {
+  margin-right: 0;
+}

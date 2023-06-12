@@ -17,6 +17,8 @@
 .description__text {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  position: relative;
+  z-index: 1;
 }
 
 .description__slogan {
@@ -77,4 +79,11 @@
 
 .description-slogan--second {
   margin-top: 40px;
+}
+
+.description__line {
+  position: absolute;
+  z-index: -1;
+  top: 244px;
+  left: 306px;
 }

@@ -37,6 +37,8 @@
 
 .order__text {
   margin-top: 100px;
+  position: relative;
+  z-index: 1;
 }
 
 .order__slogan {
@@ -55,4 +57,11 @@
   font-size: 1.125em;
   font-weight: 700;
   line-height: 150%;
+}
+
+.order__line {
+  position: absolute;
+  top: 159px;
+  left: 89px;
+  z-index: -1;
 }

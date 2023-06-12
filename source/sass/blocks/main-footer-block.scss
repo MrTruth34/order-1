@@ -1,0 +1,28 @@
+.main-footer-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-footer-block-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 180px;
+}
+
+.main-footer__slogan--black {
+  margin-top: 40px;
+}
+
+.main-footer__submit {
+  margin-right: 200px;
+  padding: 15px 30px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #060608;
+    color: #fff;
+    height: 50px;
+}
